@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment01 User-Registration</title>
+    <style>
+        input[type="text"]{
+            color: red;
+        }
+        label[for="lname"]{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>User Registration Form:</legend>
+            <div id="userName">
+                <label for="uname">Name:</label>
+                <input type="text" id="uname" placeholder="enter your name" tabindex="2">
+            </div>
+            <br>
+            <div id="lastName">
+                <label for="lname">Lastame:</label>
+                <input type="text" id="lname" placeholder="enter your lastname" tabindex="1">
+            </div> 
+            <br>
+            <div id="email">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" placeholder="enter ur emailId" tabindex="4">
+            </div>
+            <br>
+            <div id="password">
+                <label for="psswrd">Password:</label>
+                <input type="password" id="psswrd" placeholder="enter ur password here" tabindex="2">
+            </div> <br>
+            <div id="submit">
+                <label for="submit">Submit:</label>
+                <input type="submit" value="Submit ur form" id="submit" tabindex="4">
+            </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
